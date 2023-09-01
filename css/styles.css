@@ -1,0 +1,10 @@
+/* Palette: Grey 343434, Teal 055E68, Green 62A388, Light Blue B9D2D2 */
+
+body{
+    background-color: #343434;
+    color: #B9D2D2;
+}
+
+#supermain {
+    margin: 2%;
+}
