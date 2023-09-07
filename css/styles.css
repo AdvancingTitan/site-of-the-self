@@ -1,13 +1,25 @@
-/* Palette: Grey 343434, Teal 055E68, Green 62A388, Light Blue B9D2D2 */
+/* Palette "Cosmic Symphony" - DBlue #223756, midPurple #3f5481, pink #cfa2b7, beige #f1e0d6, green #698f9c
+/* unused Palette: "twilight teal tango" - darkBlue #005f73, midBlue #0a9495, lightBlue #94d3be, beige #e9d8a7, yellow #ed9b00 */
 
 /* HTML Components */
 body{
-    background-color: #343434;
-    color: #B9D2D2;
+    background-color: #3f5481;
+    color: #f1e0d6;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 footer{
     font-size: 10px;
+    text-align: right;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+h2{
+    font-weight: 400;
+    font-size: 1.6rem;
 }
 
 h4{
@@ -17,26 +29,78 @@ h5{
     font-size: 10px;
 }
 
+dt{
+
+}
+dd{
+
+}
+
+a:hover{
+    color: #cfa2b7;
+    letter-spacing: 1px;
+}
+
 /* IDs */
 #supermain {
-    background-color: red;
-    display: flex;
-    z-index: -1;
+    background-color: #3f5481;
+    padding: 25px;
+    width: 100vw;
+    height: 100vh;
 }
 
 #main{
-    padding: 25px;
-    width: 100%;
+    width: auto;
+    height: auto;
+    background-color: #223756;
+}
+
+#titletext{
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 2rem;
+}
+
+#bioDesc{
+    font-size: 1.1rem;
+    padding-top: 4%;
 }
 
 /* Classes */
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+
+.btn{
+   color: #698f9c;
+   font-weight: bold;
+   font-size: 1.5rem;
+   text-align: left;
+   padding: 0;
+}
+
+.infoDump{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.theWhy{
+    flex-basis: 70%;
+}
+.theHow{
+    flex-basis: 20%;
+    padding-top: 3.5%;
+}
+
 .ex-companies{
     width: 50%;
+    align-self: flex-start;
 }
 
 .card{
-    background-color: #343434;
-    border-color: #055E68;
+    background-color: #3f5481;
+    border-color: #0a9495;
     border: 0;
     font-size: 1rem;
     padding: 5px;
@@ -47,7 +111,10 @@ h5{
     height: inherit;
 }
 
-.card-body{
+.card-body{}
+
+.openToTheEye{
+    visibility: hidden;
 }
 
 .hidden-link{
