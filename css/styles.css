@@ -66,6 +66,11 @@ a:hover{
 }
 
 /* Classes */
+.navbar-nav{ /* Icons formatting */
+    font-size: 2rem;}
+.fa-brands{ color: #cfa2b7; }
+.fa-envelope { color: #cfa2b7; } /* Add fa-beat-fade class on hover */
+
 .content{
     display: flex;
     flex-direction: column;
